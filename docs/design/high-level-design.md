@@ -18,10 +18,10 @@ The system architecture is inferred to be a three-tier architecture:
 
 ```mermaid
 graph LR
-    A[Frontend Vue.js, Quasar] --> B(API (Django, Daphne));
+    A[Frontend Vue.js, Quasar] --> B(API Django, Daphne);
     B --> C{Database};
-    A --> D[Mobile Apps (iOS, Android)];
-    A --> E[Desktop App (Electron)];
+    A --> D[Mobile Apps iOS, Android];
+    A --> E[Desktop App Electron];
     style B fill:#f9f,stroke:#333,stroke-width:2px
 ```
 
