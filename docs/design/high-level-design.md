@@ -24,7 +24,7 @@ GreaterWMS is an inventory management system designed for warehouse operations. 
 The system likely follows a three-tier architecture:
 
 ```mermaid
-graph LR
+graph TD
     subgraph Frontend
         A[Web Application (Vue.js)] --> B(API Gateway);
         C[Mobile App (iOS/Android)] --> B;
